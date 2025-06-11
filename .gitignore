@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment / virtualenv
+env/
+venv/
+ENV/
+.venv/
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# Pytest cache
+.pytest_cache/
+
+# Flask debug logs
+*.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# VS Code extensions folder (if applicable)
+.history/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Flask Env
+.flaskenv
