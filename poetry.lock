@@ -106,6 +106,20 @@ files = [
 ]
 
 [[package]]
+name = "djhtml"
+version = "3.0.8"
+description = "Django/Jinja template indenter"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "djhtml-3.0.8.tar.gz", hash = "sha256:ec3b4cf25f0959474c7793da1becba654ca9587689ce143955bcbc2638eeabce"},
+]
+
+[package.extras]
+dev = ["nox", "pre-commit"]
+
+[[package]]
 name = "dnspython"
 version = "2.7.0"
 description = "DNS toolkit"
@@ -681,4 +695,4 @@ email = ["email-validator"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "b281e9d99861ce3ae89ab33053d5c9281b6f947fe9f7ef4554b1a53772668a6e"
+content-hash = "9adf30d7d16756d481f1e57f50ab7246b1afa8f5ed5a432b11219744efed1e17"
