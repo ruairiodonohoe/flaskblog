@@ -6,7 +6,7 @@ authors = [
     {name = "Ruairi O'Donohoe",email = "58832267+ruairiodonohoe@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "flask (>=3.1.1,<4.0.0)",
     "python-dotenv (>=1.1.0,<2.0.0)",
